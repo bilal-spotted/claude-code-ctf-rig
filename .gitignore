@@ -1,0 +1,66 @@
+# This repo is the RIG only, never challenge work or secrets.
+# The patterns below are a safety net against accidentally committing
+# solve history, flags, or machine-specific state.
+
+# Challenge working folders (created by scripts/init-workspace.sh in your
+# workspace, never committed here)
+web/
+pwn/
+crypto/
+rev/
+forensics/
+ai/
+hardware/
+misc/
+
+# Notes, summaries, and anything that could hold a real flag
+NOTES.md
+SUMMARY.md
+**/NOTES.md
+**/SUMMARY.md
+flag.txt
+**/flag.txt
+FLAGS_CAUGHT.log
+
+# The corpus of write-ups (separate concern, kept private)
+corpus/
+
+# Filled-in config that could carry your paths or session state.
+# The repo ships .template versions; the live ones stay local.
+settings.json
+.mcp.json
+settings.local.json
+
+# Claude Code local session state
+.claude/settings.local.json
+.claude/projects/
+.claude/todos/
+.claude/statsig/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+ai_tools_venv/
+
+# Node
+node_modules/
+
+# OS and editor cruft
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Extracted challenge artifacts and binaries
+extracted/
+*.txz
+*.pcap
+*.pcapng
+*.raw
+*.vmem
+*.dd
+*.E01
