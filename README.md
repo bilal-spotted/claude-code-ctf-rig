@@ -12,6 +12,8 @@ A production-grade operator setup that turns Claude Code into a full CTF solving
 
 </div>
 
+> **Disclaimer** — This rig is provided for authorised security testing and education only: CTF competitions, and systems you own or have explicit permission to assess. Use it lawfully and in accordance with the rules of any event. It is offered as-is, with no warranty and no liability for misuse.
+
 This is not a toy prompt. It is the actual working configuration, generalized so anyone can drop it into their own Kali box and run it. Every path, tool, and instruction here comes from real competition use, and the lessons baked into the agents and skills were learned the hard way, mid-round, when something broke.
 
 ---
